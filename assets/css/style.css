@@ -1,45 +1,75 @@
-.Header {
-    padding: 60px;
-    text-align: center;
-    background: #ebebeb;
+body {
+    background-image: url("../images/white-waves.png");
+    }
+
+.Header{
+    height: 80px;
+    width: 100%;
+    background: #cccccc;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    background: #ffffff;
+    overflow:hidden;
+}
+
+.MyName {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 100%;
+    float: left;
+    margin-left:10%;
+    padding: 10px;
+    background: #4aaaa5;
     font-size: 30px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
   }
 
-Body{
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    color: #777;
-    background: #777;
-    width: 960px;
-    font-size: 18px;
+.Nav{
+    background: #ebebeb;
+    float: left;
+    margin-left:30%;
+}
+
+body{
+    color:  #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.AboutMe{
+    color: #777777;
+    background:#ffffff;
+    border-color: #dddddd;
+    border-width: 10px;
+    margin: 0 10% 0 10%;
   }
 
-Nav{
+
+
+.Divider{
+    background: #4aaaa5;
+    height: 10px;
+}
+
+.Aside{
     background: #ebebeb;
 }
 
-Section{
-    background: #ebebeb;
+.Footer{
+    background: #666666;
 }
 
-Aside{
-    background: #ebebeb;
-}
-
-Footer{
-    background: #ebebeb;
-}
-
-Article{
+.Article{
     color: #ebebeb;
     background: #777;
 }
 
 h1{
-    color: #777,;
-    background: #ebebeb;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 p{
-    color: #777;
-    background: #ebebeb;
 }
