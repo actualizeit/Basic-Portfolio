@@ -4,6 +4,7 @@ body {
 
 .Header{
     width: 100%;
+    height:100px;
     background: #cccccc;
     position: fixed;
     top: 0px;
@@ -39,6 +40,7 @@ body {
     margin: 20px;
     position: fixed;
     right: 10%;
+    top: 50px;
 }
 
 body{
@@ -54,6 +56,7 @@ body{
     border-width: 1px;
     margin: 120px 10% 80px 10%;
     padding: 10pt;
+    overflow: auto;
   }
 
 
@@ -98,4 +101,43 @@ body{
 }
 
 p{
+    float:left;
+    line-height: 24pt;
+    margin:20px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+li {
+    float: left;
+    position:relative;
+}
+li:not(:last-child) {
+    border-right:1px solid #cccccc;
+}
+
+
+.divider {
+    position: absolute;
+    right:-1px;
+    top:2px;
+}
+
+
+a:link, a:visited {
+    display: block;
+    width: 80px;
+    color:  #777777;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:hover, a:active {
