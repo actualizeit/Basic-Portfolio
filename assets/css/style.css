@@ -3,12 +3,8 @@ body {
     }
 
 .Header{
-    height: 80px;
     width: 100%;
     background: #cccccc;
-    margin: 0;
-    padding: 0;
-    border: 0;
     position: fixed;
     top: 0px;
     left:0px;
@@ -19,23 +15,30 @@ body {
     overflow:hidden;
 }
 
-.MyName {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 80px;
+.MyNameBackground {
+    height: 100%;
     float: left;
     margin-left:10%;
-    padding: 0px;
     background: #4aaaa5;
-    font-size: 30px;
     color: white;
+
+  }
+
+  .MyName{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 0px;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 20px;
     text-align: center;
     vertical-align: middle;
+
   }
 
 .Nav{
-    float: left;
-    margin-left:30%;
-    vertical-align: middle;
+    margin: 20px;
+    position: fixed;
+    right: 10%;
 }
 
 body{
@@ -50,6 +53,7 @@ body{
     border-color: #dddddd;
     border-width: 1px;
     margin: 120px 10% 80px 10%;
+    padding: 10pt;
   }
 
 
@@ -59,6 +63,15 @@ body{
     height: 10px;
     width: 100%;
     float:left;
+}
+
+.Divider2{
+    background: #cccccc;
+    height: 3px;
+    width: 94%;
+    float:left;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .Aside{
@@ -79,7 +92,7 @@ body{
     background: #777;
 }
 
-h1{
+.h1{
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
