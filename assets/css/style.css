@@ -9,17 +9,22 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-
-    background: #ffffff;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+    background-color: #ffffff;
     overflow:hidden;
 }
 
 .MyName {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 100%;
+    height: 80px;
     float: left;
     margin-left:10%;
-    padding: 10px;
+    padding: 0px;
     background: #4aaaa5;
     font-size: 30px;
     color: white;
@@ -28,9 +33,9 @@ body {
   }
 
 .Nav{
-    background: #ebebeb;
     float: left;
     margin-left:30%;
+    vertical-align: middle;
 }
 
 body{
@@ -41,9 +46,10 @@ body{
 .AboutMe{
     color: #777777;
     background:#ffffff;
+    border-style: solid;
     border-color: #dddddd;
-    border-width: 10px;
-    margin: 0 10% 0 10%;
+    border-width: 1px;
+    margin: 120px 10% 80px 10%;
   }
 
 
@@ -51,6 +57,8 @@ body{
 .Divider{
     background: #4aaaa5;
     height: 10px;
+    width: 100%;
+    float:left;
 }
 
 .Aside{
@@ -59,6 +67,11 @@ body{
 
 .Footer{
     background: #666666;
+    height: 80px;
+    text-align: center;
+    color:lightgray;
+    width: 100%;
+    float: left;
 }
 
 .Article{
