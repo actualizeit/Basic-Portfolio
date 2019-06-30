@@ -16,6 +16,7 @@ body {
     /* overflow:hidden; */
     display:flex;
     justify-content: space-between;
+    z-index: 2000;
 }
 
 .MyNameBackground {
@@ -161,10 +162,11 @@ a:link, a:visited {
 .PItem{
     position: relative;
     display: inline-block;
-    width: 200px; /* Make the width of box same as image */
+    width: 200px;
     height: 150px;
     background-color: red;
-    z-index: 0;
+    opacity: 100%;
+    z-index: 5000;
     margin: 20px;
 }
 
@@ -174,7 +176,7 @@ a:link, a:visited {
     left: 0;
     bottom: -40px;
     text-align: center;
-    width: 100%; /* Set the width of the positioned div */
+    width: 100%;
     z-index: 999;
     height: 40px;
     background: #4aaaa5;
@@ -188,9 +190,6 @@ a:link, a:visited {
     text-align: center;
     vertical-align: middle;
     margin:10px;
-}
-img{
-    z-index: 5;
 }
 
 .FormLabel{
@@ -225,4 +224,12 @@ input[type=submit] {
 
   .tallbox{
       height:300px;
+  }
+
+  .PItem:hover  {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
   }
