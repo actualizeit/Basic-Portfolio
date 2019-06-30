@@ -32,7 +32,7 @@ body {
 
   }
 
-  .MyName{
+.MyName{
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 0px;
     font-size: 26px;
@@ -59,7 +59,7 @@ body{
     min-width: 600px;
 }
 
-.AboutMe{
+.MainContent{
     color: #777777;
     background:#ffffff;
     border-style: solid;
@@ -76,7 +76,8 @@ body{
     background: #4aaaa5;
     height: 10px;
     width: 100%;
-    float:left;
+    float:bottom;
+    position: fixed;
 }
 
 .Divider2{
@@ -99,7 +100,9 @@ body{
     text-align: center;
     color:lightgray;
     width: 100%;
-    float: left;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
 }
 
 .Article{
@@ -150,7 +153,42 @@ a:link, a:visited {
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-img{
+.Selfie{
     float:left;
     margin:20px;
+}
+
+.PItem{
+    position: relative;
+    display: inline-block;
+    width: 200px; /* Make the width of box same as image */
+    height: 150px;
+    background-color: red;
+    z-index: 0;
+    margin: 20px;
+}
+
+.PLabel{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    z-index: 999;
+    height: 40px;
+    background: #4aaaa5;
+    color: white;
+}
+
+.PText{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 0px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    margin:10px;
+}
+img{
+    z-index: 5;
 }
